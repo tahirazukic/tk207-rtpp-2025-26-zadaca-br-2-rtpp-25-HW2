@@ -2,12 +2,12 @@
 
 ## O projektu
 
-[Ovdje ukratko opišite domenu vaše aplikacije i njenu svrhu]
+Naša odabrana domena je muzička industrija gdje imamo širok izbor raznolikih podataka. Odabrale smo relaciju albumi/pjesme, a budući da jedan album sadrži više pjesama, imamo mogućnost da ispunimo zadane uslove rada.
 
 ## Tim
 
-- **Student A**: [Ime Prezime] - resurs: `/resursi_a`
-- **Student B**: [Ime Prezime] - resurs: `/resursi_b`
+- **Student A**: Tahira Zukić - resurs: `/resursi_a`
+- **Student B**: Ehlimana Beganović - resurs: `/resursi_b`
 
 ## Instalacija i pokretanje
 
