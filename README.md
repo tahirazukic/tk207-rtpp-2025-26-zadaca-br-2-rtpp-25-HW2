@@ -47,21 +47,21 @@ uvicorn main:app --reload
 
 ## API Endpointi
 
-### Resurs A: `/resursi_a`
+### Resurs A: `/Albumi`
 
 | Metoda | Ruta | Opis |
 |--------|------|------|
-| GET | `/resursi_a` | Lista svih resursa (sa query filterom) |
-| GET | `/resursi_a/{id}` | Dohvatanje resursa po ID-u |
-| POST | `/resursi_a` | Kreiranje novog resursa |
-| PUT | `/resursi_a/{id}` | Potpuna zamjena resursa |
-| PATCH | `/resursi_a/{id}` | Djelimično ažuriranje resursa |
-| DELETE | `/resursi_a/{id}` | Brisanje resursa |
+| GET | `/Albumi` | Lista svih resursa (sa query filterom) |
+| GET | `/Albumi/{id}` | Dohvatanje resursa po ID-u |
+| POST | `/Albumi` | Kreiranje novog resursa |
+| PUT | `/Albumi/{id}` | Potpuna zamjena resursa |
+| PATCH | `/Albumi/{id}` | Djelimično ažuriranje resursa |
+| DELETE | `/Albumi/{id}` | Brisanje resursa |
 
 **Primjer zahtjeva:**
 ```bash
 # Kreiranje novog resursa
-curl -X POST "http://localhost:8000/resursi_a" \
+curl -X POST "http://localhost:8000/Albumi" \
   -H "Content-Type: application/json" \
   -d '{"polje1": "vrijednost", "polje2": 123}'
 ```
