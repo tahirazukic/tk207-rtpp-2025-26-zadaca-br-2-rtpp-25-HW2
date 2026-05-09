@@ -2,6 +2,9 @@ from fastapi import FastAPI
 from contextlib import asynccontextmanager
 
 from database import create_db_and_tables
+from routes_a import router as resurs_a_router
+
+
 
 
 @asynccontextmanager
@@ -20,3 +23,5 @@ app = FastAPI(
 @app.get("/")
 def read_root():
     return {"message": "Zadaća 2 - REST API"}
+
+app.include_router(resurs_a_router)
